@@ -26,9 +26,9 @@ public class NameDisplay {
 		fullName = firstName + " " + middleName + " " + lastName;
 		System.out.println("Your full Name is: " + fullName);
 
-			// Task C
-	length = fullName.length();
-	System.out.println(length);
+	       // Task C
+	       length = fullName.length();
+	       System.out.println(length);
 	}	
 
 	
