@@ -10,10 +10,10 @@ public class CentimeterToFeetAndInches {
 
 
 
-    Scanner sc = new Scanner(System.in);
+       Scanner sc = new Scanner(System.in);
 
-    System.out.println("Enter a double value of centimeter: ");
-    double c = sc.nextDouble();
+       System.out.println("Enter a double value of centimeter: ");
+       double c = sc.nextDouble();
 
 		double f = 0.0328084*c;
 
