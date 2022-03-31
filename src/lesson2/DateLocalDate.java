@@ -14,7 +14,7 @@ public class DateLocalDate {
 		//Local Date API and methods      
 		LocalDate today = LocalDate.now(); // Current Date
 		String datePattern = "MMMM dd, yyyy"; 
-	  String formattedDate = today.format(DateTimeFormatter.ofPattern(datePattern));
+	        String formattedDate = today.format(DateTimeFormatter.ofPattern(datePattern));
 		
 		// Any other date
 		LocalDate anyDate = LocalDate.of(2022, 7, 4);
@@ -26,9 +26,9 @@ public class DateLocalDate {
 
 		// Task B 
 		Date toDay = new Date( );
-SimpleDateFormat sdf;
-sdf= new SimpleDateFormat( "dd MMMM  yyyy" );
-System.out.println("Today is " + sdf.format(toDay) );
+                SimpleDateFormat sdf;
+                sdf= new SimpleDateFormat( "dd MMMM  yyyy" );
+                System.out.println("Today is " + sdf.format(toDay) );
 
 	}
 }
