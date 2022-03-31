@@ -1,4 +1,4 @@
-package lesson5;
+package src.lesson5;
 
 public class Grades {
 

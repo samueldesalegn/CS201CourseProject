@@ -1,4 +1,4 @@
-package lesson6;
+package src.lesson6;
 
 public class ForTable {
 	public static void main(String[] args) {

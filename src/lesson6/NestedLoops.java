@@ -1,4 +1,4 @@
-package lesson6;
+package src.lesson6;
 import java.util.Random;
 
 public class NestedLoops {

@@ -1,4 +1,4 @@
-package lesson2;
+package src.lesson2;
 
 public class Employe {
 	// Instance Variables

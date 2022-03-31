@@ -1,4 +1,4 @@
-package lesson8;
+package src.lesson8;
 class PayScaleTable  {
 
     public static void main(String[] args) {

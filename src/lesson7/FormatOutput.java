@@ -1,6 +1,5 @@
-package lesson7;
+package src.lesson7;
 
-import java.text.MessageFormat;
 import java.util.Date;
 import java.util.Formatter;
 
@@ -23,12 +22,13 @@ public class FormatOutput {
 		System.out.printf("\n%6d #%4s#%7.2f\n", 1234, "Java", 51.6653);
 		
 		System.out.println();
-		Formatter formatter = new Formatter(System.out);
-		int num1 = 34, num2 = 9;
-	 	int num3 = num1 + num2;
-	 	formatter.format("%3d + %3d = %5d", num1, num2, num3);
-	 	// Simple Way - More Readable approach
-	 	System.out.format("\n%3d + %3d = %5d", num1, num2, num3);
+		try (Formatter formatter = new Formatter(System.out)) {
+			int num1 = 34, num2 = 9;
+			int num3 = num1 + num2;
+			formatter.format("%3d + %3d = %5d", num1, num2, num3);
+			// Simple Way - More Readable approach
+			System.out.format("\n%3d + %3d = %5d", num1, num2, num3);
+		}
 
 	}
 }

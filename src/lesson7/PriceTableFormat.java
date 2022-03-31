@@ -1,4 +1,4 @@
-package lesson7;
+package src.lesson7;
 
 public class PriceTableFormat {
 

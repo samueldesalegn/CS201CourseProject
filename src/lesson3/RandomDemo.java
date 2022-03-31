@@ -1,4 +1,4 @@
-package lesson3;
+package src.lesson3;
 
 import java.util.Random;
 import java.util.Scanner;
@@ -8,10 +8,11 @@ public class RandomDemo {
     static Random random = new Random();
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Enter the number of roles: ");
-        int userInput = input.nextInt();
-        rollDice(userInput);
+        try (Scanner input = new Scanner(System.in)) {
+            System.out.println("Enter the number of roles: ");
+            int userInput = input.nextInt();
+            rollDice(userInput);
+        }
         //Generate in a range between numbers
         rangeNumber(10,50);
     }

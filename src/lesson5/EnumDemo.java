@@ -1,4 +1,4 @@
-package lesson5;
+package src.lesson5;
 
 enum Currency {
 	US, INDIA, UK

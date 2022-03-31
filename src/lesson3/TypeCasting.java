@@ -1,4 +1,4 @@
-package lesson3;
+package src.lesson3;
 
 public class TypeCasting {
 

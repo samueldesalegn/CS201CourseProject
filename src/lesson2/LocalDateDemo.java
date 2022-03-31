@@ -1,4 +1,4 @@
-package lesson2;
+package src.lesson2;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;

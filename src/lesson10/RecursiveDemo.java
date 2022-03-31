@@ -1,4 +1,4 @@
-package lesson10;
+package src.lesson10;
 
 public class RecursiveDemo {
 

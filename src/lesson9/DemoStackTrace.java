@@ -1,4 +1,4 @@
-package lesson9;
+package src.lesson9;
 
 public class DemoStackTrace {
 	public static void main(String[] args) {

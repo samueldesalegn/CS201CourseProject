@@ -1,4 +1,4 @@
-package lesson6;
+package src.lesson6;
 
 public class Divisors {
 

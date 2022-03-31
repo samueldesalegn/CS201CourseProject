@@ -1,4 +1,4 @@
-package lesson5;
+package src.lesson5;
 public enum Size {
   SMALL, MEDIUM,LARGE,XLARGE; // public static final 
 }

@@ -1,4 +1,4 @@
-package lesson5;
+package src.lesson5;
 
 import java.util.Scanner;
 enum Month {JAN, FEB, MAR, APR, MAY, JUN,

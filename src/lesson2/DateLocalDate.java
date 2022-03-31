@@ -1,4 +1,4 @@
-package lesson2;
+package src.lesson2;
 
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;

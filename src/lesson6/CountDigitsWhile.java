@@ -1,4 +1,4 @@
-package lesson6;
+package src.lesson6;
 
 import java.util.Scanner;
 
@@ -13,10 +13,10 @@ public class CountDigitsWhile
       int oddCount = 0, evenCount = 0, zeroCount = 0;
       int value, digit;
 
-	  Scanner scan = new Scanner(System.in);
-
+	  try (Scanner scan = new Scanner(System.in)) {
       System.out.print ("Enter an integer value: ");
       value = scan.nextInt();
+   }
 
       value = Math.abs (value);
 

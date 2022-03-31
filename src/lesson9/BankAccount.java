@@ -1,4 +1,4 @@
-package lesson9;
+package src.lesson9;
 
 /*
     Introduction to OOP with Java (5th Ed), McGraw-Hill
